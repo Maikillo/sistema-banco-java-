@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SistemaBanco",
+      "request": "launch",
+      "mainClass": "banco.app.SistemaBanco",
+      "projectName": "sistema-banco-java_54ef9d46"
+    },
+    {
+      "type": "java",
+      "name": "BancoService",
+      "request": "launch",
+      "mainClass": "banco.service.BancoService",
+      "projectName": "sistema-banco-java_54ef9d46"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/mv387/Downloads/Trabalho",
+      "program": "c:/Users/mv387/Downloads/Trabalho/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
